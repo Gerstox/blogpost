@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 576px)">
+    <link rel="stylesheet" href="./css/desktop.css" media="(min-width: 992px)">
     <script src="https://kit.fontawesome.com/a42d64c4ec.js" crossorigin="anonymous"></script>
     <title>Blog | Perfil</title>
 </head>
@@ -33,7 +35,41 @@
         </nav>
     </header>
     <main>
-        <section class="blogs-news-container">
+        <section class="profile-main-container">
+            <div class="grid-container">
+                <div>
+                    <img src="./assets/img/profile.png" alt="">
+                </div>
+                <div>
+                    <h2>Hola!</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora eum beatae blanditiis exercitationem quisquam amet ratione expedita veniam ea? Exercitationem corporis architecto quas eligendi neque, veritatis sapiente eius dolores aliquam!</p>
+                </div>
+            </div>
+        </section>
+        <section class="profile-main-projects">
+            <div class="grid-container">
+                <h3>Proyectos</h3>
+                <hr>
+                <div class="projects-main-container">
+                    <article class="project-container">
+                        <h4>Texto</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora eum beatae blanditiis exercitationem quisquam amet ratione expedita veniam ea? Exercitationem corporis architecto quas eligendi neque, veritatis sapiente eius dolores aliquam!</p>
+                    </article>
+                    <article class="project-container">
+                        <h4>Texto</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora eum beatae blanditiis exercitationem quisquam amet ratione expedita veniam ea? Exercitationem corporis architecto quas eligendi neque, veritatis sapiente eius dolores aliquam!</p>
+                    </article>
+                    <article class="project-container">
+                        <h4>Texto</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora eum beatae blanditiis exercitationem quisquam amet ratione expedita veniam ea? Exercitationem corporis architecto quas eligendi neque, veritatis sapiente eius dolores aliquam!</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- <section class="blogs-news-container">
             <div class="blogs-main-new grid-container">
                 <div class="blogs-news-img-container">
                     <img src="./assets/img/profile.png" alt="Imagen del perfil">
@@ -44,8 +80,6 @@
                 </div>
             </div>
         </section>
-
-
         <section class="blogs-posts-container">
             <div class="grid-container">
                 <h3>Proyectos</h3>
@@ -66,22 +100,24 @@
                     <a href="blog.html" class="blogs-button">Leer más</a>
                 </article>
             </div>
-        </section>
+        </section> -->
 
 
-        <section class="contact-main-container grid-container">
-            <div>
-                <img src="./assets/img/newsletter.png" alt="Imagen de un periodico">
-                <div class="contact-left">
-                    <a href="#">Contacto</a>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse odit modi libero explicabo animi.</p>
+        <section class="contact-main-container">
+            <div class="contact-container">
+                <div>
+                    <img src="./assets/img/newsletter.png" alt="Imagen de un periodico">
+                    <div class="contact-left">
+                        <a href="#">Contacto</a>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse odit modi libero explicabo animi.</p>
+                    </div>
                 </div>
-            </div>
-            <div>
-                <img src="./assets/img/like.png" alt="Imagen de un corazon">
-                <div class="contact-right">
-                    <a href="#">Escribe</a>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse odit modi libero explicabo animi.</p>
+                <div>
+                    <img src="./assets/img/like.png" alt="Imagen de un corazon">
+                    <div class="contact-right">
+                        <a href="#">Escribe</a>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse odit modi libero explicabo animi.</p>
+                    </div>
                 </div>
             </div>
         </section>

@@ -63,8 +63,6 @@ nav {
     margin: 0 auto;
     width: 100%;
 }
-nav .nav-logo-container {
-}
 nav .nav-logo-container img {
     width: 170px;
     height: 48px;
@@ -109,7 +107,7 @@ main.home-main .title__index {
     color: white;
     font-size: 2rem;
     font-weight: bold;
-    line-height: 2rem;
+    line-height: 2.2rem;
     letter-spacing: 10px;
 }
 main.home-main .button__index {
@@ -135,14 +133,13 @@ main.home-main .button__index {
     padding: 1rem 1rem 1rem 1rem;
 }
 .blogs-main-new {
-    text-align: center;
-    /* display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 2fr; */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr;
 }
 .blogs-main-new h3 {
-    font-size: 2rem;
-    line-height: 2.2rem;
+    font-size: 1.8rem;
+    line-height: 2rem;
     font-weight: bold;
     margin: 0 0 1rem 0;
 }
@@ -150,16 +147,16 @@ main.home-main .button__index {
     /* grid-column: 1; */
 }
 .blogs-news-img-container  img {
-    width: 300px;
-    height: 200px;
+    width: 100%;
+    max-height: 250px;
     border-radius: 4px;
 }
 .blogs-news-info-container {
     /* grid-column: 2; */
 }
 .blogs-news-info-container h2 {
-    font-size: 2rem;
-    line-height: 2.2rem;
+    font-size: 1.8rem;
+    line-height: 2rem;
     font-weight: bold;
 }
 .blogs-news-info-container p {
@@ -176,25 +173,24 @@ main.home-main .button__index {
     display: inline-block;
 }
 .blogs-posts-container {
-    text-align: center;
     padding: 0 1rem;
 }
 .blogs-posts-container h3 {
-    font-size: 2em;
-    line-height: 2.2rem;
+    font-size: 1.8em;
+    line-height: 2rem;
     font-weight: bold;
     text-align: center;
 }
 .blogs-posts-container .post-container {
+    max-width: 100%;
     margin: 1rem 0;
     padding: 1rem;
     display: inline-block;
-    max-width: 100%;
     box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.40);
 }
 .blogs-posts-container .post-container p.title {
-    font-size: 2em;
-    line-height: 2.2rem;
+    font-size: 1.8em;
+    line-height: 2rem;
     font-weight: bold;
 }
 .blogs-posts-container .post-container p.content {
@@ -210,30 +206,37 @@ main.home-main .button__index {
 }
 .blog-img-container img {
     width: 100%;
+    max-height: 250px;
 }
 .blog-main-container {
-    padding: 0 1rem;
+    padding: 0 1rem 1rem;
 }
 .blog-main-container h3 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: bold;
-    line-height: 2.2rem;
+    line-height: 2rem;
 }
 .blog-main-container article h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: bold;
-    line-height: 2.2rem;
+    line-height: 2rem;
 }
 .blog-main-container article p {
     font-size: 1.4rem;
     line-height: 1.8rem;
 }
-.contact-main-container {
-    display: flex;
+.contact-main-container{
+    width: 100%;
     padding: 2rem 1rem;
     background-color: #e6e9ed;
 }
-.contact-main-container > div {
+.contact-main-container .contact-container {
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    display: flex;
+}
+.contact-main-container .contact-container > div {
     width: 50%;
     display: flex;
     padding: 0 1rem;
@@ -254,7 +257,53 @@ main.home-main .button__index {
 .contact-main-container p {
     display: none;
 }
+.profile-main-container {
+    padding: 1rem;
+    background-color: #e6e9ed;
+}
+.profile-main-container img {
+    width: 100%;
+    max-height: 250px;
+}
+.profile-main-container h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2rem;
+}
+.profile-main-container p {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+}
 
+
+.profile-main-projects {
+    padding: 0 1rem;
+}
+.profile-main-projects h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2rem;
+    text-align: center;
+}
+.projects-main-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.projects-main-container .project-container {
+    max-width: 100%;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.40);
+}
+.projects-main-container .project-container h4 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2rem;
+}
+.projects-main-container .project-container p {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+}
 
 
 footer {
